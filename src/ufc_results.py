@@ -24,7 +24,7 @@ class FightResult:
     """Info about a fight's result."""
 
     def __init__(
-            self, fighter_1: str, fighter_2: str, winner: Optional[str], outcome: Outcome, total_rounds: Decimal
+        self, fighter_1: str, fighter_2: str, winner: Optional[str], outcome: Outcome, total_rounds: Decimal
     ) -> None:
         self.fighter_1: str = fighter_1
         self.fighter_2: str = fighter_2
