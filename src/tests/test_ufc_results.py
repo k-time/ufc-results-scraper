@@ -11,7 +11,7 @@ class TestUFCResults(unittest.TestCase):
 
         for result in fight_results:
             assert result.fighter_1, "Could not find fighter 1 in result"
-            assert result.fighter_2, "Could not find fighter 1 in result"
+            assert result.fighter_2, "Could not find fighter 2 in result"
             assert result.winner in (
                 result.fighter_1,
                 result.fighter_2,
